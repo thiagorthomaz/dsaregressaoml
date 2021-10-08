@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiago.thomaz\\source\\repos\\Regressao\\Bicicleta_Demanda_Treino\\Bicicleta_Demanda_Treino.csproj": {}
+    "C:\\Users\\thiago.thomaz\\source\\repos\\dsaregressaoml\\Bicicleta_Demanda_Treino\\Bicicleta_Demanda_Treino.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiago.thomaz\\source\\repos\\Regressao\\Bicicleta_Demanda_Treino\\Bicicleta_Demanda_Treino.csproj": {
+    "C:\\Users\\thiago.thomaz\\source\\repos\\dsaregressaoml\\Bicicleta_Demanda_Treino\\Bicicleta_Demanda_Treino.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.thomaz\\source\\repos\\Regressao\\Bicicleta_Demanda_Treino\\Bicicleta_Demanda_Treino.csproj",
+        "projectUniqueName": "C:\\Users\\thiago.thomaz\\source\\repos\\dsaregressaoml\\Bicicleta_Demanda_Treino\\Bicicleta_Demanda_Treino.csproj",
         "projectName": "Bicicleta_Demanda_Treino",
-        "projectPath": "C:\\Users\\thiago.thomaz\\source\\repos\\Regressao\\Bicicleta_Demanda_Treino\\Bicicleta_Demanda_Treino.csproj",
+        "projectPath": "C:\\Users\\thiago.thomaz\\source\\repos\\dsaregressaoml\\Bicicleta_Demanda_Treino\\Bicicleta_Demanda_Treino.csproj",
         "packagesPath": "C:\\Users\\thiago.thomaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.thomaz\\source\\repos\\Regressao\\Bicicleta_Demanda_Treino\\obj\\",
+        "outputPath": "C:\\Users\\thiago.thomaz\\source\\repos\\dsaregressaoml\\Bicicleta_Demanda_Treino\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiago.thomaz\\AppData\\Roaming\\NuGet\\NuGet.Config",

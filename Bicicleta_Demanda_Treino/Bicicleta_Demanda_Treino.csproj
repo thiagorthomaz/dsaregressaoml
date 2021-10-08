@@ -1,0 +1,83 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0\Bicicleta_Demanda_Treino.deps.json" />
+    <Content Include="bin\Debug\net5.0\Bicicleta_Demanda_Treino.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0\Bicicleta_Demanda_Treino.runtimeconfig.json" />
+    <Content Include="obj\Bicicleta_Demanda_Treino.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dados\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net5.0\Bicicleta_Demanda_Treino.dll" />
+    <None Include="bin\Debug\net5.0\Bicicleta_Demanda_Treino.exe" />
+    <None Include="bin\Debug\net5.0\Bicicleta_Demanda_Treino.pdb" />
+    <None Include="bin\Debug\net5.0\Dados\day.csv" />
+    <None Include="bin\Debug\net5.0\Dados\hour.csv" />
+    <None Include="bin\Debug\net5.0\Microsoft.ML.Core.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.ML.CpuMath.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.ML.Data.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.ML.DataView.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.ML.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.ML.KMeansClustering.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.ML.PCA.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.ML.StandardTrainers.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.ML.Transforms.dll" />
+    <None Include="bin\Debug\net5.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net5.0\ref\Bicicleta_Demanda_Treino.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\linux-arm64\native\libLdaNative.so" />
+    <None Include="bin\Debug\net5.0\runtimes\linux-arm\native\libLdaNative.so" />
+    <None Include="bin\Debug\net5.0\runtimes\linux-x64\native\libLdaNative.so" />
+    <None Include="bin\Debug\net5.0\runtimes\osx-arm64\native\libLdaNative.dylib" />
+    <None Include="bin\Debug\net5.0\runtimes\osx-x64\native\libLdaNative.dylib" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x64\native\LdaNative.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x86\native\LdaNative.dll" />
+    <None Include="bin\Debug\net5.0\System.CodeDom.dll" />
+    <None Include="obj\Bicicleta_Demanda_Treino.csproj.nuget.g.props" />
+    <None Include="obj\Bicicleta_Demanda_Treino.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net5.0\apphost.exe" />
+    <None Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.assets.cache" />
+    <None Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.csproj.CopyComplete" />
+    <None Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.dll" />
+    <None Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net5.0\Bicicleta_Demanda_Treino.pdb" />
+    <None Include="obj\Debug\net5.0\ref\Bicicleta_Demanda_Treino.dll" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Dados\day.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Dados\hour.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Dados\SeoulBikeData.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
